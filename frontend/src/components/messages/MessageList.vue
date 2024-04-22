@@ -7,6 +7,8 @@
         <h1>Messages</h1>
         <!-- Create -->
         <input type="text"
+            size="200"
+            maxlength="200"
             v-model="textMsg"
             placeholder="Message"
             class="title-input" />
